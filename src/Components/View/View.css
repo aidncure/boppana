@@ -1,0 +1,123 @@
+.viewParentDiv {
+  padding-top: 4em;
+  display: flex;
+}
+.viewParentDiv .imageShowDiv {
+  /* padding: 16px;
+  width: 70vw; */
+/* New Code */
+  padding: 16px;
+  width: 66%;
+  height: 70%;
+  /* padding-bottom: 10%; */
+}
+.viewParentDiv .imageShowDiv img {
+  /* width: 65vw;
+  height:100%;
+  object-fit: cover; */
+
+  /* New Code */
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 42px;
+    margin-left: 17px;
+}
+
+.viewParentDiv .rightSection {
+  padding: 16px;
+  margin-top: 3em;
+  width: 30vw;
+}
+
+.viewParentDiv .rightSection .productDetails :first-child {
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #002f34;
+  font-size: 34px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.viewParentDiv .rightSection .productDetails {
+  border: 1px solid #eee;
+  background-color: #eee;
+  border-radius: 2px;
+  padding: 6px;
+  border-radius: 6px;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.viewParentDiv .rightSection .contactDetails {
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  background-color: #eee;
+  /* border-radius: 2px; */
+  
+}
+
+.viewParentDiv .rightSection .productDescription {
+  /* border: 1px solid black; */
+  padding: 6px;
+  border-radius: 6px;
+  margin-bottom: 2em;
+  margin-top:35px;
+  border: 1px solid #eee;
+  background-color: #eee;
+
+  /* New Code  */
+    /* border: 1px solid black;
+    padding: 6px;
+    border-radius: 6px;
+    margin-top: 47%;
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 233%; */
+    /* border: 1px solid black;
+    padding: 6px;
+    border-radius: 6px;
+    top: 35%;
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 233%; */
+}
+.roughtDesc{
+   /* border: 1px solid black; */
+    border: 1px solid #eee;
+    background-color: #eee;
+    padding: 6px;
+    border-radius: 6px;
+    top: -18%;
+    width: 100%;
+    height: auto;
+    position: relative;
+    right: 230%;
+}
+/* #vehicleDetails{
+  padding-top: 10px;
+  height: 40%;
+
+}
+#sellerDetails{
+  position: relative;
+  top: 10%;
+  height: 30%;
+} */
+
+
+.viewParentDiv .rightSection .contactDetails .productDescription :first-child {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #002f34;
+  font-weight: 400;
+  padding: 0;
+}
+
+.p-bold{
+  font-weight: bolder;
+}
